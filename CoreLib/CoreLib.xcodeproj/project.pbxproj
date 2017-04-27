@@ -58,6 +58,7 @@
 		A44C93621EB22F5000A14771 /* CoreLib */ = {
 			isa = PBXGroup;
 			children = (
+				A44C937B1EB2344200A14771 /* DiscoveryCore */,
 				A44C93781EB2320D00A14771 /* OCInterface */,
 			);
 			path = CoreLib;
@@ -70,6 +71,13 @@
 				A44C93761EB231C000A14771 /* CoreLib.m */,
 			);
 			name = OCInterface;
+			sourceTree = "<group>";
+		};
+		A44C937B1EB2344200A14771 /* DiscoveryCore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DiscoveryCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
