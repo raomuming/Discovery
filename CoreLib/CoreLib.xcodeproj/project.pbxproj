@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A44C93651EB22F5000A14771 /* CoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A44C93641EB22F5000A14771 /* CoreLib.m */; };
-		A44C93661EB22F5000A14771 /* CoreLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A44C93631EB22F5000A14771 /* CoreLib.h */; };
+		A44C93771EB231C000A14771 /* CoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A44C93761EB231C000A14771 /* CoreLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A44C93661EB22F5000A14771 /* CoreLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		A44C93601EB22F5000A14771 /* libCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A44C93631EB22F5000A14771 /* CoreLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLib.h; sourceTree = "<group>"; };
-		A44C93641EB22F5000A14771 /* CoreLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLib.m; sourceTree = "<group>"; };
+		A44C93751EB231C000A14771 /* CoreLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLib.h; path = platform/ios/CoreLib.h; sourceTree = "<group>"; };
+		A44C93761EB231C000A14771 /* CoreLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreLib.m; path = platform/ios/CoreLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +58,18 @@
 		A44C93621EB22F5000A14771 /* CoreLib */ = {
 			isa = PBXGroup;
 			children = (
-				A44C93631EB22F5000A14771 /* CoreLib.h */,
-				A44C93641EB22F5000A14771 /* CoreLib.m */,
+				A44C93781EB2320D00A14771 /* OCInterface */,
 			);
 			path = CoreLib;
+			sourceTree = "<group>";
+		};
+		A44C93781EB2320D00A14771 /* OCInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A44C93751EB231C000A14771 /* CoreLib.h */,
+				A44C93761EB231C000A14771 /* CoreLib.m */,
+			);
+			name = OCInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44C93651EB22F5000A14771 /* CoreLib.m in Sources */,
+				A44C93771EB231C000A14771 /* CoreLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +229,7 @@
 		A44C936A1EB22F5000A14771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -232,6 +239,7 @@
 		A44C936B1EB22F5000A14771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -257,6 +265,7 @@
 				A44C936B1EB22F5000A14771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
