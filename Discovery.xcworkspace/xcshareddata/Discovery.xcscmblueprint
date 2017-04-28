@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F8ABD4E09C42EDA77C707FEF9DB86D23FDC98C4E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F8ABD4E09C42EDA77C707FEF9DB86D23FDC98C4E" : 9223372036854775807,
+    "012C70F70A86EFCD53406E3EF9A0F0EC887D5F7E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "54393BBB-8DEA-4A27-A7C6-1E491810E5F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F8ABD4E09C42EDA77C707FEF9DB86D23FDC98C4E" : "Discovery\/",
+    "012C70F70A86EFCD53406E3EF9A0F0EC887D5F7E" : "Discovery\/CoreLib\/CoreLib\/thirtyParty\/Libevent\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Discovery",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Discovery.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nmathewson\/Libevent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "012C70F70A86EFCD53406E3EF9A0F0EC887D5F7E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:raomuming\/Discovery.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8ABD4E09C42EDA77C707FEF9DB86D23FDC98C4E"
+    }
+  ]
+}
